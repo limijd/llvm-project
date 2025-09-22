@@ -11,3 +11,5 @@ if(CLANG_PLUGIN_SUPPORT)
   add_subdirectory(CallSuperAttribute)
   add_subdirectory(PluginsOrder)
 endif()
+
+add_subdirectory(LibClangToyCompiler)
